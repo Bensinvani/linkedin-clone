@@ -1,7 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
 import { axiosInstance } from "../lib/axios";
-import Sidebar from "../components/Sidebar";
+import Sidebar from "../components/SideBar";
 import Post from "../components/Post";
 
 const PostPage = () => {
